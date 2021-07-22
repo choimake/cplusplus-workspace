@@ -2,5 +2,8 @@
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
         "cpp": "cd $dir && g++-11 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-    }
+    },
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "C_Cpp.autocompleteAddParentheses": true,
+    "editor.formatOnSave": true
 }

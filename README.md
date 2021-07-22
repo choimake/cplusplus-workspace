@@ -8,10 +8,16 @@ gccをbrewでインストールする(ここではg++-11をインストールす
 brew install gcc
 ```
 
-VSCodeのCodeRunner(formulahendry.code-runner)をインストールする
+VSCodeのCodeRunnerをインストールする
 
 ```
 code --install-extension formulahendry.code-runner
+```
+
+VSCodeのC/C++をインストールする
+
+```
+code --install-extension ms-vscode.cpptools
 ```
 
 ## How To Use
